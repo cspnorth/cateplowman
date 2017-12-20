@@ -1,0 +1,67 @@
+/*
+Theme Name: WP Bootstrap Starter Child
+Theme URI: https://afterimagedesigns.com/wp-bootstrap-starter/
+Author: Cate Plowman!
+Author URI: https://cateplowman.com
+Template: wp-bootstrap-starter
+Description: Custom design for Cate Plowman based on wp-bootstrap-starter
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: wp-bootstrap-starter
+Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+# Woocommerce
+# Footer
+--------------------------------------------------------------*/
+@import url("../wp-bootstrap-starter/style.css");
+
+
+
+header#masthead {
+  margin-bottom: 0;
+  background-color: #f3944a ;
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+  padding: .74rem 1rem;
+  border-bottom: none ;
+}
+.navbar-brand > a {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1.1rem;
+  outline: medium none;
+  text-decoration: none;
+  color: #393282;
+  font-weight: 700;
+}
+#page-sub-header {
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  font-size: 1.25rem;
+  background-size: cover !important;
+}
+h1, h2, h3, h4 {
+	font-family: 'Josefin Sans', sans-serif;
+}
